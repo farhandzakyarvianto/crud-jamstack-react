@@ -30,7 +30,7 @@ export default function LinkCard({ link, refreshLinks }) {
         <div className="card">
             <div className="card-header">{link.name}</div>
             <div className="card-body">
-                <a href={link.url}>{link.url}</a>
+                <a href={link.url} target="_blank">{link.url}</a>
                 <p>{link.description}</p>
             </div>
             <div className="card-footer">
